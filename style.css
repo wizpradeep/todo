@@ -63,3 +63,15 @@ i {
   background-color: red;
   color: black;
 }
+@media (max-width: 800px) {
+  .box {
+    width: 100%;
+  }
+  .box h1 {
+    font-size: 1.3rem;
+  }
+  #todo-event,
+  li {
+    font-size: 1rem;
+  }
+}
